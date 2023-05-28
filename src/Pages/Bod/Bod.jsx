@@ -1,3 +1,4 @@
+import SmallComponent from "./BodyComponents/SmallComponent";
 import "./bod.css";
 function Bod() {
   return (
@@ -38,7 +39,15 @@ function Bod() {
         {/* -----How Does it Works----- */}
 
         <div className="howDoesItWork" style={{ background: "" }}>
-        <p className="heading" >How does it work ?</p>
+       <div>
+       <p className="heading" >How does it work ?</p>
+       </div>
+       <div>
+<SmallComponent/>
+
+       </div>
+
+
         </div>
         {/* -----Terms and Conditions and Friends----- */}
         <div className="terms" style={{ background: "green" }}>
