@@ -1,6 +1,7 @@
-import NavLogo from "../Assets/Logo.png";
-import profile from "../Assets/LoginProfile.png";
-import arrow from "../Assets/LoginArrow.png";
+import NavLogo from "../../Assets/Logo.png";
+import profile from "../../Assets/LoginProfile.png";
+import arrow from "../../Assets/LoginArrow.png";
+import "./navbar.css"
 function Navbar() {
   return (
     <>
