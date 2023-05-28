@@ -1,0 +1,10 @@
+.friends{
+    position: absolute;
+    top: 179px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px 187px;
+    gap: 40px;
+}

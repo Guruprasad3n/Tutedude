@@ -6,6 +6,7 @@ import Body from "./Compenents/Body/Body";
 import Nav from "./Pages/Nav/nav";
 import Nav1 from "./Pages/DownNav1/Nav1";
 import Bod from "./Pages/Bod/Bod";
+import FriendsEnroll from "./Pages/FriendsEnroll/FriendsEnroll";
 
 function App() {
   return (
@@ -14,9 +15,14 @@ function App() {
       <DownNav />
       <Body/> 
       */}
+
       <Nav />
-      <Nav1/>
-      <Bod/>
+      <Nav1 />
+
+      <Routes>
+        <Route path="/" element={<Bod />} />
+        <Route path="/FriendsReferred" element={<FriendsEnroll />} />
+      </Routes>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SmallComponent from "./BodyComponents/SmallComponent";
 import "./bod.css";
 function Bod() {
@@ -50,8 +51,9 @@ function Bod() {
 
         </div>
         {/* -----Terms and Conditions and Friends----- */}
-        <div className="terms" style={{ background: "green" }}>
-          erte
+        <div className="terms" style={{ background: "" , height:"" }}>
+        <Link to="/FriendsReferred" >Friends Who Enrolled</Link>
+        <Link to="" >Terms & Conditions</Link>
         </div>
       </div>
     </>

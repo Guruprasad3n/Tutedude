@@ -49,6 +49,13 @@ function SmallComponent() {
   // const [getData, setGetData] = useState(data)
   // console.log(getData)
   console.log(data);
+
+{/* <IoMdWallet/> */} // Wallet
+{/* <FaRupeeSign/> */} // Rupee --- <BiRupee/>
+// {/* <BiPurchaseTag/> */} Bookmark
+
+
+
   return (
     <>
       <div className="mapMain">
