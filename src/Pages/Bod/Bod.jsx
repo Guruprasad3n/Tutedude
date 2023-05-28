@@ -24,16 +24,23 @@ function Bod() {
             </div>
           </div>
           <div className="dadhboard2">
-<p>Your Referral Code </p>
-
+            <p className="heading">Your Referral Code</p>
+            <div className="frame">
+              <span>E</span>
+              <span>D</span>
+              <span>C</span>
+              <span>H</span>
+              <span>5</span>
+              <span>4</span>
+            </div>
           </div>
         </div>
-{/* -----How Does it Works----- */}
+        {/* -----How Does it Works----- */}
 
-        <div className="howDoesItWork" style={{ background: "blue" }}>
-          asd
+        <div className="howDoesItWork" style={{ background: "" }}>
+        <p className="heading" >How does it work ?</p>
         </div>
-{/* -----Terms and Conditions and Friends----- */}
+        {/* -----Terms and Conditions and Friends----- */}
         <div className="terms" style={{ background: "green" }}>
           erte
         </div>
