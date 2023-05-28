@@ -1,0 +1,68 @@
+/* .parent {
+  background: #ffffff;
+  padding: 0px 187px;
+ 
+}
+
+.body {
+  position: absolute;
+  width: 486px;
+  height: 188px;
+  left: 187px;
+  top: 179px;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px 22.5px;
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.ref__earning {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ref__earning > p {
+  font-family: "Poppins";
+  font-style: normal;
+}
+.referral {
+  color: #800080;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.earning {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+.button__Withdrawl {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 10px;
+
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 153px;
+  top: 119px;
+
+  background: #800080;
+  border-radius: 20px;
+}
+.button__Withdrawl > button {
+  display: block;
+  margin: auto;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+} */
+.earningBody{
+    background: red;
+    height: 700px;
+
+}

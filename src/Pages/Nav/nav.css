@@ -1,0 +1,41 @@
+.navbar1 {
+  position: absolute;
+  height: 73.03px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  /* border: 1px solid red; */
+
+  /* background: #ffffff; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 74px;
+}
+.righr {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-end;
+  color: #80008040;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.5%;
+
+}
+.righr1 {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.prim {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #800080;
+  cursor: pointer;
+}

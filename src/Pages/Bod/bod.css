@@ -1,0 +1,86 @@
+.bod {
+  position: absolute;
+  top: 179px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0px 187px;
+}
+.dashboard {
+  display: flex;
+  align-items: first baseline;
+  gap: 93px;
+}
+.dashboard1 {
+  width: 486px;
+  height: 188px;
+  padding: 20px 22.5px;
+  background: #ffffff;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.referMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.referMainChild {
+  /* display: flex;
+  flex-direction: column;
+  gap: 10px; */
+}
+.referMainChild > p:first-child {
+  width: 111px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800080;
+}
+.referMainChild > p:last-child {
+  width: 116px;
+  height: 48px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+.dblock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 8px 16px;
+  gap: 10px;
+}
+.dblock > button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 0px;
+  padding: 8px 16px;
+  background: #800080;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+/* -----------Dashboard 2---------------- */
+
+.dadhboard2 {
+  width: 358px;
+  height: 105px;
+}
+.dadhboard2 > p {
+  /* font-family: "Poppins"; */
+  width: 228px;
+  height: 36px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+}
