@@ -1,0 +1,52 @@
+{
+  "userData": [
+    {
+      "id": 1,
+      "name": "Dhiraj Saxsena",
+      "date": "14 Sep, 2022",
+      "course": "Courses Enrolled(6)",
+      "skills": [
+        { "skill1": "UI/UX" },
+        { "skill2": "Photoshop" },
+        { "skill3": "Illustrator" },
+        { "skill4": "Python" },
+        { "skill5": "MERN" },
+        { "skill6": "Java" }
+      ],
+      "amount": "Referral Amount ",
+      "price": "₹185"
+    },
+    {
+      "id": 2,
+      "name": "Dhiraj Saxsena",
+      "date": "14 Sep, 2022",
+      "course": "Courses Enrolled(6)",
+      "skills": [
+        { "skill1": "UI/UX" },
+        { "skill2": "Photoshop" },
+        { "skill3": "Illustrator" },
+        { "skill4": "Python" },
+        { "skill5": "MERN" },
+        { "skill6": "Java" }
+      ],
+      "amount": "Referral Amount ",
+      "price": "₹185"
+    },
+    {
+      "id": 3,
+      "name": "Dhiraj Saxsena",
+      "date": "14 Sep, 2022",
+      "course": "Courses Enrolled(6)",
+      "skills": [
+        { "skill1": "UI/UX" },
+        { "skill2": "Photoshop" },
+        { "skill3": "Illustrator" },
+        { "skill4": "Python" },
+        { "skill5": "MERN" },
+        { "skill6": "Java" }
+      ],
+      "amount": "Referral Amount ",
+      "price": "₹185"
+    }
+  ]
+}
