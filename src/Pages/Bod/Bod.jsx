@@ -1,7 +1,37 @@
 import { Link } from "react-router-dom";
 import SmallComponent from "./BodyComponents/SmallComponent";
 import "./bod.css";
+
+const referCode = [
+  {
+    id:1,
+    d1:"E"
+  },
+  {
+    id:2,
+    d2:"D"
+  },
+  {
+    id:3,
+    d3:"C"
+  },
+  {
+    id:4,
+    d4:"H"
+  },
+  {
+    id:5,
+    d5:"5"
+  },
+  {
+    id:6,
+    d6:"4"
+  },
+]
+
 function Bod() {
+// const  = props
+
   return (
     <>
       <div className="bod">

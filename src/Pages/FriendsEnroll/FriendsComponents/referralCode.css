@@ -1,0 +1,11 @@
+.rfer{
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.refera>p{
+    color: #800080;
+}
