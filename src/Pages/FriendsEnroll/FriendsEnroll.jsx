@@ -1,3 +1,4 @@
+import FreindsEnrollComp from "./FriendsComponents/FriendsEnrollComp";
 import ReferralCode from "./FriendsComponents/ReferralCode";
 import WalletBalance from "./FriendsComponents/WalletBalance";
 import "./friendsEnroll.css";
@@ -9,6 +10,7 @@ function FriendsEnroll() {
             <ReferralCode/>
             <WalletBalance/>
         </div>
+        <FreindsEnrollComp/>
       </div>
     </>
   );
