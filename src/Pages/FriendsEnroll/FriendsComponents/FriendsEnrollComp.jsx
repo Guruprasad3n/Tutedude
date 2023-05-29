@@ -38,6 +38,13 @@ function FreindsEnrollComp() {
           Friends who enrolled
           <span style={{ color: "#626262", fontWeight: "normal" }}>(3)</span>
         </p>
+
+
+<div className="userCard">
+
+</div>
+
+
       </div>
     </>
   );
