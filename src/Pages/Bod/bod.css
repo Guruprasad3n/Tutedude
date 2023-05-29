@@ -112,3 +112,30 @@
   letter-spacing: auto;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 428px) {
+  .bod {
+    padding: 0px 25px;
+  }
+  .dashboard {
+    flex-direction: column;
+  }
+  .dashboard1 {
+    position: relative;
+    width: 358px;
+  }
+  .referMain {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-bottom:-100px;
+  }
+  .dblock {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 180px;
+    height: 40px;
+  }
+  .dblock > button {
+  }
+}

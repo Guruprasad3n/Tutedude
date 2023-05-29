@@ -2,6 +2,7 @@ import logo from "../../Assets/Logo.png";
 import profile from "../../Assets/LoginProfile.png";
 import arrow from "../../Assets/LoginArrow.png";
 import "./nav.css"
+import {MdKeyboardArrowDown} from "react-icons/md"
 function Nav() {
   return (
     <>
@@ -18,7 +19,8 @@ function Nav() {
           <div className="prim">
             <img src={profile} alt="Profile" />
             <p>ProfileName</p>
-            <img src={arrow} alt="Down Arrow" />
+            {/* <img src={arrow} alt="Down Arrow" /> */}
+            <MdKeyboardArrowDown className="arrowDown"/>
           </div>
         </div>
       </div>

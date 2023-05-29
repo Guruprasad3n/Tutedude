@@ -24,3 +24,12 @@
 .dow:last-child ::after{
   display: none;
 } */
+
+@media screen and (max-width: 428px){
+
+  .dow{
+  width: 100%;
+  padding: 0px 18px;
+}
+  
+  }

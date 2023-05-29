@@ -10,3 +10,10 @@
   position: sticky;
   top: 0;
 } */
+
+/* 
+@media screen and (max-width: 428px){
+  .navbar1, .dow, .bod{
+    padding: 0px 10px;
+  }
+} */
