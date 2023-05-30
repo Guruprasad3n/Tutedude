@@ -1,15 +1,36 @@
-.friends{
-    position: absolute;
-    top: 179px;
-    width: 100%;
-    display: flex;
-    /* align-items: flex-start; */
-    flex-direction: column;
-    padding: 0px 187px;
-    gap: 40px;
+.friends {
+  position: absolute;
+  top: 179px;
+  width: 100%;
+  display: flex;
+  /* align-items: flex-start; */
+  flex-direction: column;
+  padding: 0px 187px;
+  gap: 40px;
 }
-.referWallet{
+.referWallet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goback {
+  opacity: 0;
+}
+@media screen and (max-width: 428px) {
+  .friends {
+    padding: 0px 10px;
+  }
+  .goback {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080;
+}
+.goback>a{
+    text-decoration: none;
+    color: #800080;
+  }
 }

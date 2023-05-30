@@ -1,8 +1,6 @@
 import UserCard from "./UserCard";
 import "./friendsEnrollComp.css";
 
-
-
 function FreindsEnrollComp() {
   return (
     <>
@@ -12,9 +10,7 @@ function FreindsEnrollComp() {
           <span style={{ color: "#626262", fontWeight: "normal" }}>(3)</span>
         </p>
 
-<UserCard/>
-
-
+        <UserCard />
       </div>
     </>
   );
