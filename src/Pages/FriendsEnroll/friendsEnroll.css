@@ -21,6 +21,8 @@
     padding: 0px 30px;
   }
   .goback {
+    margin-top: -30px;
+      margin-bottom: -21px;
     display: flex;
     align-items: center;
     gap: 10px;

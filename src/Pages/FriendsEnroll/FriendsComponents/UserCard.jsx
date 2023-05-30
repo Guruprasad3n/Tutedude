@@ -20,7 +20,7 @@ const userData = [
   },
   {
     id: 2,
-    name: "Dhiraj Saxsena",
+    name: "Subhash Mishra",
     date: "15 Sep, 2022",
     course: "Courses Enrolled(23)",
     skills: [
@@ -30,14 +30,15 @@ const userData = [
       { skill4: "Python" },
       { skill5: "MERN" },
       { skill6: "Java" },
+      { skill7: "C++" },
     ],
     amount: "Referral Amount ",
-    price: "₹185",
+    price: "₹485",
   },
   {
     id: 3,
-    name: "Dhiraj Saxsena",
-    date: "14 Sep, 2022",
+    name: "Prafull Kumar",
+    date: "16 Sep, 2022",
     course: "Courses Enrolled(23)",
     skills: [
       { skill1: "UI/UX" },
@@ -48,7 +49,7 @@ const userData = [
       { skill6: "Java" },
     ],
     amount: "Referral Amount ",
-    price: "₹185",
+    price: "₹485",
   },
 ];
 
