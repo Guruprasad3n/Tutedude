@@ -76,4 +76,11 @@ flex-grow: 0; */
   line-height: 24px;
   color: #800080;
   cursor: pointer;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 428px){
+  .mainCardCard{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
 }

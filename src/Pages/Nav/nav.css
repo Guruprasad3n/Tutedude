@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 428px) {
   .navbar1 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0px 10px;
     mix-blend-mode: normal;
   }
