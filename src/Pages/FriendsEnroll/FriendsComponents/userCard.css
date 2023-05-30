@@ -84,3 +84,9 @@ flex-grow: 0; */
     grid-template-columns: repeat(1, auto);
   }
 }
+@media screen and (max-width: 768px){
+  .mainCardCard{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+}

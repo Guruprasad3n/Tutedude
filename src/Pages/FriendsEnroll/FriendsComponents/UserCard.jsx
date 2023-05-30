@@ -41,12 +41,12 @@ const userData = [
     date: "16 Sep, 2022",
     course: "Courses Enrolled(23)",
     skills: [
-      { skill1: "UI/UX" },
-      { skill2: "Photoshop" },
-      { skill3: "Illustrator" },
-      { skill4: "Python" },
-      { skill5: "MERN" },
-      { skill6: "Java" },
+      { skill: "UI/UX" },
+      { skill: "Photoshop" },
+      { skill: "Illustrator" },
+      { skill: "Python" },
+      { skill: "MERN" },
+      { skill: "Java" },
     ],
     amount: "Referral Amount ",
     price: "₹485",
@@ -66,26 +66,23 @@ function UserCard() {
             <p className="enCOurse">{e.course}</p>
 
             <div className="skillGrid">
-              {/* <div className="smallSkill">{e.skills.skill1}</div>
-              <div className="smallSkill"></div>
+              <div className="smallSkill">{e.skills.skill}</div>
+              {/* <div className="smallSkill"></div>
               <div className="smallSkill"></div>
               <div className="smallSkill"></div>
               <div className="smallSkill"></div>
               <div className="smallSkill"></div> */}
               {/* <SkillCard/> */}
-
             </div>
             <div className="amPrice">
-
-                <p>{e.amount}</p>
-                <p>{e.price}</p>
+              <p>{e.amount}</p>
+              <p>{e.price}</p>
             </div>
           </div>
         ))}
       </div>
-        <p className="terms">Terms & Conditions</p>
+      <p className="terms">Terms & Conditions</p>
     </>
   );
 }
 export default UserCard;
-

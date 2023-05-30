@@ -139,3 +139,17 @@
   .dblock > button {
   }
 }
+@media screen and (max-width: 768px) {
+  .bod {
+    padding: 0px 40px;
+    mix-blend-mode: normal;
+  }
+  .dashboard {
+    flex-direction: column;
+    margin: auto;
+  }
+  /* .dashboard1 {
+    position: relative;
+    width: 358px;
+  } */
+}

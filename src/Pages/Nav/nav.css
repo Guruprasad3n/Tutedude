@@ -5,10 +5,6 @@
   right: 0px;
   top: 0px;
   background: #ffffff;
-  /* border: 1px solid red; */
-
-  /* background: #ffffff; */
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,5 +66,14 @@
     font-weight: 500;
     font-size: 2rem;
     color: #ffffff;
+  }
+}
+@media screen and (max-width: 768px){
+  .navbar1 {
+    padding: 0px 40px;
+    mix-blend-mode: normal;
+  }
+  .righr1 > p {
+    display: none;
   }
 }

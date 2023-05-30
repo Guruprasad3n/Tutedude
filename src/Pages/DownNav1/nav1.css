@@ -25,11 +25,15 @@
   display: none;
 } */
 
-@media screen and (max-width: 428px){
-
-  .dow{
-  width: 100%;
-  padding: 0px 18px;
-}
-  
+@media screen and (max-width: 428px) {
+  .dow {
+    width: 100%;
+    padding: 0px 18px;
   }
+}
+@media screen and (max-width: 768px) {
+  .dow {
+    padding: 0px 50px;
+    mix-blend-mode: normal;
+  }
+}
